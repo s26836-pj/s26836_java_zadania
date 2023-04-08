@@ -1,8 +1,8 @@
 public class Author {
 
-   private String name;
+   private final String name;
    private String surname;
-   private int age;
+   private final int age;
 
     public Author(String name, String surname, int age) {
         this.name = name;
@@ -27,7 +27,7 @@ public class Author {
     }
 
 
-//    to do
+
     public String toString() {
         return "Author name = " + name + ", "+ " surname = " + surname
                 + ", " + "age = " + age;
